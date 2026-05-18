@@ -16,10 +16,10 @@ const shareTech = Share_Tech_Mono({
 });
 
 const baseAppId =
-  process.env.NEXT_PUBLIC_BASE_APP_ID ?? "placeholder-register-on-base-dev";
+  process.env.NEXT_PUBLIC_BASE_APP_ID ?? "6a0ab9471f1ccae4c221e8d4";
 
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://hangman-sepia-mu.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

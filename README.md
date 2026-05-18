@@ -25,10 +25,10 @@ Copy `web/.env.example` to `web/.env.local` and set:
 
 | Variable | Description |
 |----------|-------------|
-| `NEXT_PUBLIC_SITE_URL` | Production URL |
+| `NEXT_PUBLIC_SITE_URL` | `https://hangman-sepia-mu.vercel.app` |
 | `NEXT_PUBLIC_CHAIN_ID` | `8453` (Base) |
 | `NEXT_PUBLIC_CHECK_IN_CONTRACT_ADDRESS` | Deployed check-in contract |
-| `NEXT_PUBLIC_BASE_APP_ID` | From [base.dev](https://base.dev) project settings |
+| `NEXT_PUBLIC_BASE_APP_ID` | `6a0ab9471f1ccae4c221e8d4` (base.dev domain verification) |
 | `NEXT_PUBLIC_BUILDER_CODE` | `bc_…` from base.dev → Settings → Builder Code |
 
 ## Base.dev registration
