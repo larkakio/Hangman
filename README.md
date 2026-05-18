@@ -36,7 +36,7 @@ Copy `web/.env.example` to `web/.env.local` and set:
 1. Create a project at [base.dev](https://base.dev).
 2. Set primary URL, name, tagline, screenshots, category, description.
 3. Add `<meta name="base:app_id" />` (already in `web/app/layout.tsx`).
-4. Copy Builder Code into `NEXT_PUBLIC_BUILDER_CODE`.
+4. Copy Builder Code into `NEXT_PUBLIC_BUILDER_CODE` (this project: `bc_fg7qhzxz`). Wagmi appends it automatically via `dataSuffix` + `ox` `Attribution.toDataSuffix` on every `checkIn` transaction.
 
 ## Deploy contract
 
